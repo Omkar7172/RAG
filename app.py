@@ -10,7 +10,7 @@ for page in pdf_reader.pages:
     text +=page.extract_text() + "\n"
 
 
-groqapi = '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'
+groqapi = ' '
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
